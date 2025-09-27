@@ -1,0 +1,3 @@
+aryanraj854326_db_user
+a6CEMKLf29ll1jEp
+mongodb+srv://aryanraj854326_db_user:a6CEMKLf29ll1jEp@cluster0.m1xrfs9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
