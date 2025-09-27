@@ -6,7 +6,7 @@ const express=require("express");
 const app=express();
 const mongoose=require("mongoose");
 const path=require("path");
-// const MONGO_URL="mongodb://127.0.0.1:27017/wanderlust";
+
 const methodOverride=require("method-override");
 const ejsMate=require("ejs-mate");
 const ExpressError = require("./utils/ExpressError.js");
@@ -128,6 +128,6 @@ app.use((err,req,res,next)=>{
 
 
 
-app.listen(8080,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server is Listening to port 8080");
 });
